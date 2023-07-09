@@ -1,0 +1,128 @@
+.card1 {
+    width: 25rem;
+    height: 26rem;
+    transition: all 0.2s;
+    position: relative;
+    cursor: pointer;
+}
+
+.card-inner {
+    width: inherit;
+    height: inherit;
+    background: rgba(255, 255, 255, .05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+}
+
+.card1:hover {
+    transform: scale(1.04);
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(#b0e633, #53ef7d);
+    border-radius: 50%;
+    position: absolute;
+    animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+
+.circle:nth-child(1) {
+    top: -50px;
+    left: -50px;
+}
+
+.circle:nth-child(2) {
+    bottom: -50px;
+    right: -50px;
+    animation-name: move-down1;
+}
+
+@keyframes move-up6 {
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes move-down1 {
+    to {
+        transform: translateY(10px);
+    }
+}
+
+.overlay {
+    background-color: transparent;
+    color: inherit;
+}
+
+.form__group {
+    position: relative;
+    padding: 20px 0 0;
+    width: 100%;
+    max-width: 180px;
+    background: transparent;
+}
+
+.form__field {
+    font-family: inherit;
+    width: 21rem;
+    border: none;
+    border-bottom: 1px solid #E7E7E7;
+    outline: 0;
+    font-size: 17px;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+.form__field::placeholder {
+    color: transparent;
+}
+
+.form__field:placeholder-shown~.form__label {
+    font-size: 17px;
+    cursor: text;
+    top: 20px;
+}
+
+.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 17px;
+    color: #9b9b9b;
+    pointer-events: none;
+    background: transparent;
+}
+
+.form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 300;
+    outline: none;
+    border-bottom: 1px solid #E7E7E7;
+    outline: 0;
+}
+
+.form__field:focus~.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 17px;
+    color: #6CC644;
+    font-weight: 200;
+}
+
+/* reset input */
+.form__field:required,
+.form__field:invalid {
+    box-shadow: none;
+}
+
+.form {
+    background: transparent;
+}
+

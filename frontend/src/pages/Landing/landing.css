@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    gap: 1rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+
+.title {
+    padding-top: 12rem;
+}
+
+.auth {
+    padding-left: 10rem ;
+    padding-top: 3rem;
+}
