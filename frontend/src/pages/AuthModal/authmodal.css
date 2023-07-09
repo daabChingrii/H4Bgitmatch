@@ -2,7 +2,9 @@
     width: 25rem;
     height: 26rem;
     transition: all 0.2s;
-    position: relative;
+    position: fixed;
+    top: 9rem;
+    right: 7rem;
     cursor: pointer;
 }
 
@@ -53,6 +55,15 @@
 
 p {
     background-color: transparent;
+    color: #E7E7E7;
+}
+
+.nav-link {
+    background-color: transparent;
+}
+
+.nav-link:hover {
+    color: #6CC644;
 }
 
 .overlay {
