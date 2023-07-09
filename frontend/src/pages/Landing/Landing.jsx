@@ -1,8 +1,13 @@
 import React from 'react'
 import { Navbar } from '../../components/Navbar/Navbar'
 import "./landing.css";
-import { AuthModal } from '../AuthModal/AuthModal';
+
+import { CreateAcc } from '../AuthModal/CreateAcc';
+import { LogIn } from '../AuthModal/Login';
 export const Landing = () => {
+
+    var signup = false;
+
     return (
         <>
             <div><Navbar /></div>
@@ -15,7 +20,7 @@ export const Landing = () => {
                 </div>
                 <div className='float-right'>
                     <div className='auth'>
-                        <AuthModal />
+                        {signup ? <CreateAcc /> : <LogIn />}
                     </div>
                 </div>
             </div>
