@@ -7,6 +7,7 @@ import './App.css';
 import { Team } from './pages/Devs/Team';
 import { LogIn } from './pages/AuthModal/Login';
 import { CreateAcc } from './pages/AuthModal/CreateAcc';
+import { Home } from './pages/Home/Home';
 
 const App = () => {
 
@@ -17,7 +18,7 @@ const App = () => {
           <Route path="/" element={<LogIn />} />
           <Route path="/login" element={<LogIn />} />
           <Route path="/signup" element={<CreateAcc />} />
-
+          <Route path="/home" element={<Home />} />
           <Route path="/onboarding" element={<Onboarding />} />
           <Route path="/source" />
           <Route path="/team" element={<Team />} />
