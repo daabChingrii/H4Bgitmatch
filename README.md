@@ -30,14 +30,6 @@ GitMatch was developed by Team daabChingri( ) for the Hack4Bengal 2.0 hackathon.
 
 The GitMatch app is deployed and accessible at [gitmatchv1.vercel.app](https://gitmatchv1.vercel.app/). Visit the link to explore the app.
 
-## Contributing
-
-Contributions are welcome! Please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
-
 ## Contact
 
 For any inquiries or feedback, please reach out to us at:
