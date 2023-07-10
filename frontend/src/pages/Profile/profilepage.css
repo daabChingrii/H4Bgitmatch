@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: transparent;
+    border-color: #E7E7E7;
+}
+
+.card:hover {
+    animation: glowing 2s infinite;
+}
+
+@keyframes glowing {
+    0% {
+        box-shadow: 0 0 5px #fff;
+    }
+
+    50% {
+        box-shadow: 0 0 20px #6CC644, 0 0 30px #6CC644, 0 0 40px #6CC644;
+    }
+
+    100% {
+        box-shadow: 0 0 5px #fff;
+    }
+}
+
+#avatar {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+
+
+p {
+    font-family: 'Poppins';
+}
+
+.skill {
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.skill:hover {
+    background-color: #C0C0C0;
+}
+
+.interests {
+    color: white;
+    background-color: transparent;
+    border-color: #C0C0C0;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.interests:hover {
+    background-color: #C0C0C0;
+}
