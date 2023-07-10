@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const routes = require('./routes/routes');
 
-mongoose.connect('mongodb+srv://diya:diya@cluster0.zfjfls0.mongodb.net/profiles?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://diya:<password>@cluster0.zfjfls0.mongodb.net/profiles?retryWrites=true&w=majority');
 const database = mongoose.connection
 
 database.on('error', (error) => {
