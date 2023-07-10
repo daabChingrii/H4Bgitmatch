@@ -1,0 +1,12 @@
+inflect==6.0.4
+nltk==3.8.1
+numpy==1.24.3
+PyPDF2==3.0.1
+scikit_learn==1.2.2
+sentence_transformers==2.2.2
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+streamlit
+requests

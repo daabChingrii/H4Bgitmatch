@@ -1,0 +1,27 @@
+WORKING / PROJECT EXPERIENCES
+DoctorOnCall - Software and Data Intern
+* Tech Stack: Next.js, Express.js, GraphQL, SQL, Python, GCP, Puppeteer.js
+* Conducted analysis on online consultation data, identified poor performance doctors
+* Automate workflow to access remote server, clean data, mailing and saved up 30 mins per day
+* Refactored core Shopify client REST API to GraphQL, improved web performance
+* Scraped more than 1k pages data on Yellow Pages, identified potential collaborator
+
+PORTFOLIO & PROJECTS
+* Dog Breed Classifier
+   * Web app that classifies dog breed with image- this
+* Image Classifier of Pizza, Steak, Sushi
+   * Fine-tuned EfficientNet model that classifies food - this
+* SupaVacation
+   * Online marketplace for vacation rentals -  this
+* AllSight
+   * Analytics dashboard to improve website performance- this
+
+TECHNICAL SKILLS
+Frontend
+Backend
+JavaScript, TypeScript, React.js, Node.js, HTML, CSS
+Node.js, Firebase, MySQL, PostgreSQL, Rest API, GraphQL, Redis, FastAPI, Java
+Machine Learning
+Others
+Python, TensorFlow, PyTorch, Scikit-Learn, Numpy, Pandas, Scikit-Learn, spaCy, NLTK
+Git, Docker, Kubernetes, Nginx, GCP, BigQuery, Puppeteer.js, Figma
