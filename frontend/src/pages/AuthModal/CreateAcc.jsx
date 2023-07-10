@@ -8,7 +8,7 @@ export const CreateAcc = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
-
+/* 
     let Navigate = useNavigate();
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -25,7 +25,7 @@ export const CreateAcc = () => {
             console.error('Error:', error);
             // Handle error cases, such as displaying an error message to the user
         }
-    };
+    }; */
 
     return (
         <>
@@ -39,7 +39,7 @@ export const CreateAcc = () => {
                             <p>Sign Up</p>
                         </div>
 
-                        <form action='/signup' method="POST" onSubmit={handleSubmit}>
+                        <form action='/signup' method="POST">
                             <div className='form pt-2 pl-8'>
                                 <div class="form__group field">
                                     <input type="input" class="form__field" placeholder="email" required="" onChange={(e) => setEmail(e.target.value)} />

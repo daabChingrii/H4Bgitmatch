@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import axios from 'axios';
 export const LogIn = () => {
 
-    const [email, setEmail] = useState("");
+    /* const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -13,7 +13,7 @@ export const LogIn = () => {
             email: email,
             password: password
         })
-    }
+    } */
     return (
         <>
             <Landing />
@@ -28,18 +28,18 @@ export const LogIn = () => {
                         <form>
                             <div className='form pt-7 pl-8'>
                                 <div class="form__group field">
-                                    <input type="email" class="form__field" placeholder="gmail" required="" onChange={(e) => setEmail(e.target.value)} />
+                                    <input type="email" class="form__field" placeholder="gmail" required=""  />
                                     <label for="email" class="form__label font-Poppins font-light">enter email</label>
                                 </div>
                             </div>
                             <div className='form pt-7 pl-8'>
                                 <div class="form__group field">
-                                    <input type="password" class="form__field" placeholder="password" required="" onChange={(e) => setPassword(e.target.value)} />
+                                    <input type="password" class="form__field" placeholder="password" required=""  />
                                     <label for="password" class="form__label font-Poppins font-light">enter password</label>
                                 </div>
                             </div>
                             <div className='form pt-8 pl-2 flex justify-center'>
-                                <button class="button" onClick={handleSubmit}>
+                                <button class="button">
                                     <NavLink to="/home" className="nav-link2">Log Me In!</NavLink>
                                 </button>
                             </div>
