@@ -10,6 +10,8 @@ import { CreateAcc } from './pages/AuthModal/CreateAcc';
 import { Home } from './pages/Home/Home';
 import { About } from './pages/About';
 import { Home1 } from './pages/Home1/Home1';
+import { Home2 } from './pages/Home1/Home2';
+import { Home3 } from './pages/Home1/Home3';
 
 const App = () => {
 
@@ -26,6 +28,8 @@ const App = () => {
           <Route path="/team" element={<Team />} />
           <Route path="/assets" element={<Assets />} />
           <Route path="/home" element={<Home1 />} />
+          <Route path="/home2" element={<Home2 />} />
+          <Route path="/home3" element={<Home3 />} />
         </Routes>
       </BrowserRouter>
     </>

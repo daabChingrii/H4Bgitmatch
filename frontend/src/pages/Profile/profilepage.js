@@ -2,7 +2,7 @@ import React from 'react';
 import { SocialIcon } from 'react-social-icons';
 import './profilepage.css'
 
-export default function PersonalProfile() {
+export function PersonalProfile() {
   return (
     <div class="container">
       <div class="card m-3 text-light" style={{ width: '50rem' }}>
