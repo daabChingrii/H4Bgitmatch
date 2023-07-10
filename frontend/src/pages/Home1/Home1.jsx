@@ -13,7 +13,7 @@ export const Home1 = () => {
     return (
         <>
             <Navbar />
-            <div class="card1">
+            <div class="card2">
                 <button className='btn-social'>
                     <BsChevronLeft className='left-arrow fill-white1' onClick={handleNavLeft} />
                 </button>

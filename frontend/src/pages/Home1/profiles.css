@@ -1,4 +1,7 @@
 .card2 {
+    top: 100px;
+    left: 160px;
+    position: fixed;
     width: 60rem;
     height: 30rem;
     background: transparent;
