@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Landing } from './pages/Landing/Landing';
+
 import { Onboarding } from './pages/Onboarding';
 import { Assets } from './pages/Assets/Assets';
 

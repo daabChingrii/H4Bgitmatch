@@ -1,0 +1,193 @@
+.home {
+    background-color: #202020;
+    border-radius: 10px;
+    height: 32rem;
+    width: 76rem;
+    align-items: center;
+    border: 1px solid white;
+
+    .containerc {
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin: right 2px;
+
+        .sidebar {
+            flex: 1;
+            border-right: 1px solid #E7E7E7;
+            background-color: #202020;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+
+            .navbar {
+                background-color: #4b8b30;
+                border-top-left-radius: 10px;
+                display: flex;
+                height: 3rem;
+
+                .title {
+                    background-color: transparent;
+                    padding-top: 7px;
+                    padding-left: 10px;
+                }
+
+                .user {
+                    background-color: transparent;
+                    padding-top: 8px;
+                    padding-right: 10px;
+
+                    .secondt {
+                        background-color: transparent;
+                        padding-left: 10rem;
+                    }
+                }
+            }
+
+            .searchbar {
+                border-bottom: 1px solid gray;
+
+                .searchForm {
+                    padding: 10px;
+                    color: white;
+                    width: 50px;
+
+                    input {
+                        color: white;
+                    }
+                }
+
+                .input {
+                    border: 1px solid white;
+                    padding: 10px;
+                }
+            }
+
+            .userchat {
+                background-color: transparent;
+                display: flex;
+                align-items: center;
+                gap: 3px;
+                color: white;
+                cursor: pointer;
+
+                &:hover {
+                    outline: 1px solid #6bc64458;
+                    box-shadow: #4b8b30;
+                    color: #4b8b30;
+                    background-color: #364c33;
+                }
+
+                .userchatinfo {
+                    background-color: transparent;
+                    padding-left: 15px;
+
+                    #nameside {
+                        background-color: transparent;
+                    }
+                }
+            }
+
+
+        }
+
+        .chat {
+            flex: 3;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            background-color: #31562c;
+
+            .chatIcons {
+                display: flex;
+                gap: 10px;
+                background-color: transparent;
+            }
+
+            .chatinfo {
+                height: 70px;
+                background-color: #4b8b30;
+                border-top-right-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-left: 10px;
+                padding-right: 20px;
+
+                .headerchat {
+                    display: flex;
+                    justify-items: center;
+                    background-color: transparent;
+                }
+
+                #chatname {
+                    background-color: transparent;
+                }
+
+                #icons {
+                    background-color: #4b8b30;
+                    color: white;
+                }
+            }
+
+            .messages {
+                background-color: #31562c;
+
+            }
+
+            .message-container {
+                background-color: #31562c;
+                height: 391px;
+                overflow: scroll;
+
+                .message-info {
+                    background-color: transparent;
+                    display: flex;
+                    align-items: center;
+
+                    .message-content {
+                        max-width: 80px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                    }
+                }
+                &.owner {
+                    flex-direction: row-reverse;
+                }
+            }
+
+            .input-chat {
+                height: 50px;
+                background-color: white;
+                padding: 5px;
+                border-bottom-right-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .chatIcons {
+
+                    #icons1 {
+                        padding-right: 10px;
+                        padding-top: 5px;
+                        background-color: white;
+                        color: #4b8b30;
+                        cursor: pointer;
+
+                        &:hover {
+                            color: #6CC644;
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.search-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+}
