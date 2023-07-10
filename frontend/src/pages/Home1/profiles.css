@@ -1,4 +1,4 @@
-.card1 {
+.card2 {
     width: 60rem;
     height: 30rem;
     background: transparent;
@@ -91,11 +91,11 @@
     font-size: 0.8em;
 }
 
-.card1:hover {
+.card2:hover {
     animation: glowing 4s infinite;
 }
 
-.card1:hover .card-info {
+.card2:hover .card-info {
     transform: translateY(-5%);
 }
 

@@ -1,7 +1,7 @@
-import { React, useState } from 'react'
+import { React } from 'react'
 import { Landing } from '../Landing/Landing'
 import { NavLink } from 'react-router-dom';
-import axios from 'axios';
+import "./authmodal.css"
 export const LogIn = () => {
 
     /* const [email, setEmail] = useState("");

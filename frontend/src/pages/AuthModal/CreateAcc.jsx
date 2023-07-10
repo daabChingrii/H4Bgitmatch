@@ -1,8 +1,7 @@
 import { Landing } from "../Landing/Landing";
 import "./authmodal.css"
-import axios from "axios"
 import { React, useState } from 'react'
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export const CreateAcc = () => {
     const [email, setEmail] = useState('');
