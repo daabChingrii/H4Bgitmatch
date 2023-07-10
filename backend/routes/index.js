@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
-const User = require('./models/dataSchema')
+const User = require('../models/dataSchema')
 
 app.use(express.json());
 app.use(cors());

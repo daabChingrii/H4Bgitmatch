@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const routes = require('./routes/routes');
+const routes = require('./routes');
 
 mongoose.connect("mongodb+srv://prajukta:dummyuser123@cluster0.zbay1v9.mongodb.net/registration")
     .then(() => {
