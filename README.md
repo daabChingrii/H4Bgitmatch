@@ -1,7 +1,5 @@
 # GitMatch
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
 ## Description
 
 GitMatch was developed by Team daabChingri( ) for the Hack4Bengal 2.0 hackathon. It is a platform designed to connect developers, recruiters, and job seekers. It simplifies the process of finding developers for hackathons, job opportunities, or collaborative projects based on specific tech stacks. Additionally, it provides a resume ranker feature to evaluate the suitability of resumes for job applications, and a community forum for discussions and knowledge sharing.
