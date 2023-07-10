@@ -1,12 +1,19 @@
 import { React, useState } from 'react'
 import { Landing } from '../Landing/Landing'
 import { NavLink } from 'react-router-dom';
-
+import axios from 'axios';
 export const LogIn = () => {
 
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-   
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        axios.post('http://localhost:4000/newuser', {
+            email: email,
+            password: password
+        })
+    }
     return (
         <>
             <Landing />
@@ -32,8 +39,8 @@ export const LogIn = () => {
                                 </div>
                             </div>
                             <div className='form pt-8 pl-2 flex justify-center'>
-                                <button class="button">
-                                    Log Me In!
+                                <button class="button" onClick={handleSubmit}>
+                                    <NavLink to="/home" className="nav-link2">Log Me In!</NavLink>
                                 </button>
                             </div>
                             <div className='form text-sm text-white1 pt-4 pl-1 flex justify-center'>

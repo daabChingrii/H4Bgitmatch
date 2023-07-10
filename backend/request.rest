@@ -1,6 +1,0 @@
-POST http://localhost:3002/authenticate
-Content-Type: application/json
-
-{
-    "username":"adam",
-}
