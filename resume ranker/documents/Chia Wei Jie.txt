@@ -1,0 +1,25 @@
+Java
+Python
+React
+JavaScript
+HTML + CSS
+TypeScript
+Flutter
+ML
+MongoDB
+MySQL
+SpringBoot
+Backend developer
+Cooperated with 4 members to complete a bug tracking
+website (https://bugslife-fe.vercel.app) assigned as SEM 2
+Data Structure assignment
+Frontend developer
+Cooperated with 2 members to complete an android
+mobile application called ReturnMed used to join Google
+Solution Challenge 2021.
+Full-stack developer
+Cooperated with 2 other members to develop a website
+(https://target-t2d.my) used by hospitals for data collection
+and analysis.
+Carried out user training and handled website maintenance
+after the website had been completely developed.
